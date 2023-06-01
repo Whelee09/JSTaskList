@@ -1,0 +1,47 @@
+body {
+    background-color: #70a2d1;
+    margin: 0;
+    padding: 0 300px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.botones{
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+/* #addTask{
+    color: #000;
+    background-color: black;
+    font-display: white;
+} */
+.dontShow{
+    display: none;
+}
+li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.divSupremo{
+    background-color: rgb(249, 252, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deleteButtonClass{
+    background-color: crimson;
+    color: whitesmoke;
+}
+.addButtonClass{
+    background-color: black;
+    color: whitesmoke;
+}
+

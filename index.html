@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskList</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="divSupremo">
+        <h1>What needs to be done</h1>
+        <form>
+            <input type="text" id="texto" name="textoTarea">
+            <!-- este br hardcodeado por aqui lo quito luego -->
+            <br>
+            <button type="button" id="addTask">Add</button>
+        </form>
+        <div class="botones">
+            <br>
+            <button type="button" id="All">All</button>
+            <button type="button" id="Active">Active</button>
+            <button type="button" id="Completed">Completed</button>
+        </div>
+        <div class="li-container" id="containerLI">
+            <ul>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
